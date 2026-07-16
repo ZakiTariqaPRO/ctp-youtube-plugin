@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Système YouTube — Collectif Tariqa PRO</title>
+<meta name="description" content="Bâtir une stratégie YouTube claire et produire ton contenu au quotidien : sujets, mots-clés, titres, miniatures, scripts, analyse. Pour les membres du Collectif Tariqa PRO.">
+<style>
+  :root{
+    --beige:#F4EFE5; --beige-2:#EDE6D6; --noir:#161413; --noir-2:#2c2722;
+    --or:#C29B45; --or-soft:#E8D9B5; --blanc:#FFFFFF; --gris:#6f675c;
+    --ok:#3f7a4f; --warn:#9a6a1f;
+    --radius:16px; --maxw:760px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    background:var(--beige); color:var(--noir);
+    line-height:1.65; -webkit-font-smoothing:antialiased;
+    padding:0 20px;
+  }
+  .wrap{max-width:var(--maxw);margin:0 auto}
+  header{text-align:center;padding:64px 0 40px}
+  .kicker{letter-spacing:.28em;text-transform:uppercase;font-size:12px;color:var(--or);font-weight:700;margin-bottom:18px}
+  h1{font-size:clamp(30px,6vw,46px);line-height:1.1;font-weight:800;letter-spacing:-.02em}
+  h1 .or{color:var(--or)}
+  .tagline{margin-top:14px;font-style:italic;color:var(--gris);font-size:17px}
+  .sub{margin-top:22px;font-size:17px;color:var(--noir-2);max-width:560px;margin-left:auto;margin-right:auto}
+  .rule{width:54px;height:3px;background:var(--or);border-radius:3px;margin:30px auto 0}
+  .beta{display:inline-block;background:var(--noir);color:var(--or);border-radius:999px;padding:5px 14px;font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin-bottom:18px}
+  section{margin:40px 0}
+  h2{font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:var(--or);font-weight:700;margin-bottom:8px}
+  .lead{font-size:24px;font-weight:800;letter-spacing:-.01em;margin-bottom:16px;line-height:1.25}
+  .step{background:var(--blanc);border:1px solid var(--beige-2);border-radius:var(--radius);padding:26px 26px 24px;margin:18px 0;box-shadow:0 1px 0 rgba(0,0,0,.02)}
+  .step-head{display:flex;align-items:center;gap:14px;margin-bottom:10px}
+  .num{flex:0 0 auto;width:40px;height:40px;border-radius:50%;background:var(--noir);color:var(--or);display:grid;place-items:center;font-weight:800;font-size:18px}
+  .step-head h3{font-size:20px;font-weight:800;letter-spacing:-.01em}
+  .step p{margin:10px 0;color:var(--noir-2)}
+  .step ul{margin:10px 0 10px 4px;list-style:none}
+  .step ul li{position:relative;padding-left:24px;margin:7px 0;color:var(--noir-2)}
+  .step ul li::before{content:"";position:absolute;left:4px;top:11px;width:7px;height:7px;border-radius:50%;background:var(--or)}
+  .cmd{position:relative;background:var(--noir);color:#f3ead6;border-radius:12px;padding:16px 54px 16px 18px;margin:12px 0;font-family:"SF Mono",Menlo,Consolas,monospace;font-size:14.5px;overflow-x:auto;white-space:nowrap}
+  .cmd .copy{position:absolute;right:8px;top:8px;background:var(--or);color:var(--noir);border:none;border-radius:8px;padding:6px 10px;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit}
+  .cmd .copy:active{transform:scale(.96)}
+  .say{display:inline-block;background:var(--or-soft);color:var(--noir);border-radius:10px;padding:10px 14px;margin:10px 0;font-weight:700}
+  a.dl{display:inline-block;background:var(--or);color:var(--noir);text-decoration:none;border-radius:12px;padding:14px 22px;margin:6px 0;font-size:17px;font-weight:800}
+  a.dl:hover{filter:brightness(1.05)}
+  a.ghost{display:inline-block;background:transparent;color:var(--noir);border:1px solid var(--or);text-decoration:none;border-radius:12px;padding:13px 20px;margin:6px 0;font-size:16px;font-weight:800}
+  .note{border-radius:12px;padding:16px 18px;margin:16px 0;font-size:15px}
+  .note .t{font-weight:800;margin-bottom:4px;display:block}
+  .note.info{background:var(--or-soft);border-left:4px solid var(--or)}
+  .note.warn{background:#f7ecd8;border-left:4px solid var(--warn)}
+  .note.ok{background:#e8f0e6;border-left:4px solid var(--ok)}
+  .grid{display:grid;grid-template-columns:1fr;gap:12px;margin-top:8px}
+  @media(min-width:560px){.grid{grid-template-columns:1fr 1fr}}
+  .tile{background:var(--blanc);border:1px solid var(--beige-2);border-radius:14px;padding:18px}
+  .tile .e{font-size:22px}
+  .tile b{display:block;margin:6px 0 2px;font-size:16px}
+  .tile span{color:var(--gris);font-size:14px}
+  details{background:var(--blanc);border:1px solid var(--beige-2);border-radius:12px;padding:4px 18px;margin:10px 0}
+  details summary{cursor:pointer;font-weight:700;padding:12px 0;list-style:none}
+  details summary::-webkit-details-marker{display:none}
+  details summary::before{content:"+ ";color:var(--or);font-weight:800}
+  details[open] summary::before{content:"– "}
+  details p{padding:0 0 14px;color:var(--noir-2)}
+  footer{text-align:center;padding:48px 0 60px;color:var(--gris)}
+  footer .brand{font-weight:800;color:var(--noir);font-size:18px}
+  footer .tg{color:var(--or);font-style:italic;margin-top:4px}
+  .bismillah{font-size:15px;color:var(--noir-2);margin-bottom:18px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="beta">Beta</div>
+    <div class="kicker">Collectif Tariqa PRO</div>
+    <h1>Ta chaîne YouTube,<br><span class="or">claire et méthodique</span>.</h1>
+    <p class="tagline">Entreprendre. Ensemble. Vers Dieu.</p>
+    <p class="sub">Un système qui t'aide à bâtir ta <b>stratégie de contenu</b>, puis à <b>produire au quotidien</b> — sujets, mots-clés, titres, miniatures, scripts, analyse. Un outil <b>vivant</b>, pas un exercice qu'on fait une fois.</p>
+    <div class="rule"></div>
+  </header>
+
+  <section>
+    <h2>Ce que ça va t'apporter</h2>
+    <p class="lead">De l'idée à la vidéo prête à tourner — avec une méthode, pas au hasard.</p>
+    <div class="grid">
+      <div class="tile"><div class="e">🧭</div><b>Ta stratégie de chaîne</b><span>Positionnement, piliers, formats, funnel, cadence.</span></div>
+      <div class="tile"><div class="e">🔑</div><b>Tes mots-clés</b><span>Sur quoi te rendre découvrable (data réelle).</span></div>
+      <div class="tile"><div class="e">✍️</div><b>Tes titres</b><span>Un plan éditorial, titres challengés.</span></div>
+      <div class="tile"><div class="e">🖼️</div><b>Tes miniatures</b><span>Fabriquées avec toi, pas juste conseillées.</span></div>
+      <div class="tile"><div class="e">🎬</div><b>Ta structure / ton script</b><span>Plan, mind map ou script complet, ta voix.</span></div>
+      <div class="tile"><div class="e">📓</div><b>Ton playbook</b><span>Tout compilé, à rouvrir chaque semaine.</span></div>
+    </div>
+    <div class="note info"><span class="t">Un coach avec toi tout du long</span><b>Coach Zaki</b> challenge tes idées, tes titres, tes hooks — il te pousse, il ne te flatte pas.</div>
+  </section>
+
+  <section id="prerequis">
+    <h2>Avant de commencer</h2>
+    <p class="lead">Ce système suppose que tu as fait le <b>parcours CTP</b>.</p>
+    <div class="note warn"><span class="t">⚠️ Le parcours CTP est un prérequis</span>
+      Ton persona, ton offre, ton positionnement, ta voix : c'est le socle. Sans lui, ton contenu serait
+      générique. Si tu ne l'as pas encore fait, commence par là — ensuite reviens ici :
+      <br><a class="dl" href="https://zakitariqapro.github.io/ctp-plugin/">Faire le parcours CTP d'abord →</a></div>
+  </section>
+
+  <section id="install">
+    <h2>Installation</h2>
+    <p class="lead">Une seule fois. Aucune commande compliquée. Si tu sais copier-coller, tu sais faire.</p>
+
+    <div class="note warn"><span class="t">⚠️ À savoir</span>
+      La partie <b>Code</b> de Claude nécessite un <b>abonnement Claude payant</b> (Pro ou Max). Un compte
+      gratuit ne suffit pas.</div>
+
+    <div class="note info"><span class="t">Tu es sur quel ordinateur ?</span>
+      Le tout début (installer Claude + l'outil Git) diffère sur Mac et Windows. Choisis ton système :
+      <br><a class="dl" href="installation.html#mac">🍎 Je suis sur Mac</a>
+      &nbsp; <a class="dl" href="installation.html#windows">🪟 Je suis sur Windows</a></div>
+
+    <div class="step">
+      <div class="step-head"><div class="num">1</div><h3>Installe Claude + ouvre ton dossier</h3></div>
+      <p>Installe l'app <b>Claude</b> (onglet <b>Code</b>), et l'outil <b>Git</b> — tout est détaillé, pas à pas, dans le guide :</p>
+      <a class="dl" href="installation.html">Guide d'installation détaillé (Claude + Git) →</a>
+      <p>Puis ouvre ton dossier de travail <b>CTP</b> dans Claude (le même que pour le parcours).</p>
+    </div>
+
+    <div class="step">
+      <div class="step-head"><div class="num">2</div><h3>Installe le parcours CTP (le prérequis)</h3></div>
+      <p>Si ce n'est pas déjà fait, colle ce message dans Claude et envoie :</p>
+      <div class="cmd"><button class="copy">Copier</button>Installe le plugin du Collectif Tariqa PRO depuis ce lien : https://github.com/ZakiTariqaPRO/ctp-plugin.git</div>
+      <p>Puis fais le parcours : <span class="say">lance le parcours CTP</span></p>
+    </div>
+
+    <div class="step">
+      <div class="step-head"><div class="num">3</div><h3>Installe le système YouTube</h3></div>
+      <p>Colle ce message dans Claude et envoie — il s'occupe de tout :</p>
+      <div class="cmd"><button class="copy">Copier</button>Installe le système YouTube du Collectif Tariqa PRO depuis ce lien : https://github.com/ZakiTariqaPRO/ctp-youtube-plugin</div>
+      <ul>
+        <li>Si Claude demande d'<b>autoriser</b> quelque chose → réponds <b>oui</b>.</li>
+        <li>Laisse-le finir. Quand c'est bon, il te le confirme.</li>
+      </ul>
+      <div class="note info"><span class="t">Mises à jour automatiques</span>Tu reçois les nouveautés sans rien réinstaller. Au besoin : « mets à jour le système YouTube du Collectif Tariqa PRO ».</div>
+    </div>
+
+    <div class="step">
+      <div class="step-head"><div class="num">4</div><h3>Lance ta stratégie</h3></div>
+      <p>Dans ton dossier, écris simplement, en français normal :</p>
+      <div class="say">lance ma stratégie YouTube</div>
+      <p>Il regarde où tu en es, t'affiche ta progression, et démarre la bonne étape. Tu n'as qu'à <b>répondre à ses questions</b>.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Produire au quotidien</h2>
+    <p class="lead">L'outil est vivant : tu y reviens chaque semaine.</p>
+    <div class="step">
+      <p>Quand tu veux avancer, écris l'une de ces phrases, en français normal :</p>
+      <ul>
+        <li><span class="say">on produit quoi aujourd'hui</span> → il te propose un sujet / un titre prêt, et on enchaîne.</li>
+        <li><span class="say">travaille le packaging de ma vidéo</span> → l'angle, les titres, puis ta <b>miniature</b> fabriquée avec toi.</li>
+        <li><span class="say">structure ma vidéo</span> → un plan clair (ou une mind map, ou un script complet).</li>
+        <li><span class="say">analyse la performance de ma vidéo</span> → après publication, ce qui a marché et le maillon à corriger.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>À la fin (et à tout moment)</h2>
+    <p class="lead">Ton playbook, compilé.</p>
+    <div class="step">
+      <p>Écris : <span class="say">exporte ma stratégie YouTube</span></p>
+      <p>Il rassemble tout — descriptif, mots-clés, titres, structure type, miniatures, cadence — dans <b>un seul document</b> avec une checklist de ce qui est fait et ce qui reste. C'est ton point d'appui pour produire.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Questions fréquentes</h2>
+    <details><summary>Je dois d'abord avoir fait le parcours CTP ?</summary><p>Oui. Persona, offre, positionnement, voix : c'est le socle. Sans lui, le système s'arrête et te renvoie le faire. <a href="https://zakitariqapro.github.io/ctp-plugin/">Commence ici.</a></p></details>
+    <details><summary>Il me faut un abonnement à un outil ?</summary><p>Le système marche mieux avec <b>vidIQ</b> (data marché + miniatures), mais ce n'est pas obligatoire : sans lui, il travaille en mode dégradé et te livre les prompts pour un outil gratuit. Aucun abonnement imposé.</p></details>
+    <details><summary>Je m'y connais pas en informatique.</summary><p>Pas besoin. Tu installes Claude, tu colles un message, tu écris en français normal. Aucune commande technique.</p></details>
+    <details><summary>« lance ma stratégie YouTube » n'est pas reconnu.</summary><p>La boîte à outils n'est pas encore installée. Reviens à l'étape 3, renvoie le message d'installation, puis ferme et rouvre Claude.</p></details>
+  </section>
+
+  <footer>
+    <p class="bismillah">Bismillah, et bon contenu. On avance — ensemble.</p>
+    <div class="brand">Collectif Tariqa PRO</div>
+    <div class="tg">Entreprendre. Ensemble. Vers Dieu.</div>
+  </footer>
+
+</div>
+
+<script>
+  document.querySelectorAll('.cmd .copy').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var txt=btn.parentNode.textContent.replace('Copier','').trim();
+      navigator.clipboard.writeText(txt).then(function(){
+        var old=btn.textContent;btn.textContent='Copié ✓';
+        setTimeout(function(){btn.textContent=old;},1500);
+      });
+    });
+  });
+</script>
+</body>
+</html>

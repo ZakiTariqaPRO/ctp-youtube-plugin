@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guide d'installation détaillé — Collectif Tariqa PRO</title>
+<meta name="description" content="Installer Claude + Git pas à pas, séparément pour Mac et Windows. Pour débutants complets.">
+<style>
+  :root{
+    --beige:#F4EFE5; --beige-2:#EDE6D6; --noir:#161413; --noir-2:#2c2722;
+    --or:#C29B45; --or-soft:#E8D9B5; --blanc:#FFFFFF; --gris:#6f675c;
+    --ok:#3f7a4f; --warn:#9a6a1f; --radius:16px; --maxw:760px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:"Helvetica Neue",Arial,sans-serif;background:var(--beige);color:var(--noir);
+    line-height:1.65;-webkit-font-smoothing:antialiased;padding:0 20px}
+  .wrap{max-width:var(--maxw);margin:0 auto}
+  header{text-align:center;padding:56px 0 26px}
+  .kicker{letter-spacing:.28em;text-transform:uppercase;font-size:12px;color:var(--or);font-weight:700;margin-bottom:16px}
+  h1{font-size:clamp(28px,5.5vw,40px);line-height:1.12;font-weight:800;letter-spacing:-.02em}
+  h1 .or{color:var(--or)}
+  .sub{margin-top:18px;font-size:17px;color:var(--noir-2)}
+  .back{display:inline-block;margin:8px 0 0;color:var(--gris);text-decoration:none;font-weight:700}
+  .back:hover{color:var(--noir)}
+  section{margin:34px 0}
+  .lead{font-size:22px;font-weight:800;letter-spacing:-.01em;margin:24px 0 12px}
+  .step{background:var(--blanc);border:1px solid var(--beige-2);border-radius:var(--radius);
+    padding:24px;margin:16px 0}
+  .step-head{display:flex;align-items:center;gap:14px;margin-bottom:10px}
+  .num{flex:0 0 auto;width:38px;height:38px;border-radius:50%;background:var(--noir);color:var(--or);
+    display:grid;place-items:center;font-weight:800;font-size:17px}
+  .step-head h3{font-size:19px;font-weight:800;letter-spacing:-.01em}
+  .step p{margin:10px 0;color:var(--noir-2)}
+  .step ul{margin:10px 0 10px 4px;list-style:none}
+  .step ul li{position:relative;padding-left:24px;margin:7px 0;color:var(--noir-2)}
+  .step ul li::before{content:"";position:absolute;left:4px;top:11px;width:7px;height:7px;border-radius:50%;background:var(--or)}
+  .note{border-radius:12px;padding:16px 18px;margin:14px 0;font-size:15px}
+  .note .t{font-weight:800;margin-bottom:4px;display:block}
+  .note.info{background:var(--or-soft);border-left:4px solid var(--or)}
+  .note.warn{background:#f7ecd8;border-left:4px solid var(--warn)}
+  .note.ok{background:#e7f0e8;border-left:4px solid var(--ok)}
+  code{background:#efe7d5;border-radius:6px;padding:2px 7px;font-size:14px}
+  a.dl{display:inline-block;background:var(--or);color:var(--noir);text-decoration:none;
+    border-radius:12px;padding:13px 20px;margin:6px 0;font-size:16px;font-weight:800}
+  footer{text-align:center;padding:40px 0;color:var(--gris)}
+  .brand{font-weight:800;color:var(--noir);margin-top:8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="kicker">Collectif Tariqa PRO</div>
+    <h1>Guide d'installation <span class="or">détaillé</span></h1>
+    <p class="sub">Installer <b>Claude</b> et <b>Git</b> pas à pas. Suis uniquement la partie de TON ordinateur.</p>
+    <a class="back" href="index.html">← Revenir à la page principale</a>
+  </header>
+
+  <div class="note warn"><span class="t">⚠️ Prérequis : un abonnement Claude payant</span>
+    La partie <b>Code</b> de Claude nécessite un <b>abonnement Pro ou Max</b> (un compte gratuit ne suffit pas).
+    Assure-toi d'avoir ça avant de commencer.
+  </div>
+
+  <div class="note ok"><span class="t">Pourquoi Git ?</span>
+    « Git » est un petit outil gratuit qui permet à Claude d'aller chercher la boîte à outils du Collectif.
+    Sans lui, l'installation automatique ne se fait pas. C'est à installer <b>une seule fois</b>.
+  </div>
+
+  <!-- ============ MAC ============ -->
+  <section id="mac">
+    <h2 style="color:var(--or);font-size:13px;letter-spacing:.18em;text-transform:uppercase;font-weight:700">Pour Mac 🍎</h2>
+    <p class="lead">Mac — installation pas à pas</p>
+
+    <div class="step">
+      <div class="step-head"><div class="num">1</div><h3>Installe l'application Claude</h3></div>
+      <ul>
+        <li>Va sur <b>claude.ai/download</b> et clique <b>Download for Mac</b>.</li>
+        <li>Ouvre le fichier téléchargé (<code>.dmg</code>) et glisse l'icône <b>Claude</b> dans le dossier <b>Applications</b>.</li>
+        <li>Ouvre <b>Claude</b> depuis tes Applications et <b>connecte-toi</b>.</li>
+      </ul>
+    </div>
+
+    <div class="step">
+      <div class="step-head"><div class="num">2</div><h3>Vérifie / installe Git</h3></div>
+      <p>Beaucoup de Mac ont déjà Git. On vérifie d'abord, on installe seulement si besoin.</p>
+      <p><b>1) Vérifie :</b></p>
+      <ul>
+        <li>Ouvre l'app <b>Terminal</b> (appuie sur <b>⌘ + Espace</b>, tape « Terminal », Entrée — c'est la recherche Spotlight de Mac).</li>
+        <li>Copie-colle cette ligne, puis appuie sur <b>Entrée</b> :</li>
+      </ul>
+      <p><code>git --version</code></p>
+      <ul>
+        <li>Si un numéro s'affiche (ex. <code>git version 2.39.x</code>) → <b>Git est déjà là</b>, passe à l'étape 3. ✅</li>
+        <li>Si une fenêtre te propose d'<b>installer les outils de développement en ligne de commande</b> → clique <b>Installer</b> et attends la fin. Git sera alors prêt.</li>
+      </ul>
+      <p><b>2) Si rien ne s'est passé</b>, tape cette ligne dans le Terminal puis Entrée :</p>
+      <p><code>xcode-select --install</code></p>
+      <ul>
+        <li>Une fenêtre s'ouvre → clique <b>Installer</b>, attends quelques minutes. (Si le message dit « already installed », c'est que Git est déjà là — tout va bien.)</li>
+      </ul>
+      <div class="note info"><span class="t">Le Terminal, c'est juste pour vérifier</span>Tu t'en sers uniquement pour cette vérification de Git. Tu n'en auras plus besoin ensuite — la suite se fait dans l'app Claude.</div>
+    </div>
+
+    <div class="step">
+      <div class="step-head"><div class="num">3</div><h3>La suite</h3></div>
+      <p>C'est tout pour Mac ! Reviens à la page principale et continue à l'étape <b>« Installe le parcours CTP »</b>.</p>
+      <a class="dl" href="index.html#install">← Revenir et continuer</a>
+    </div>
+  </section>
+
+  <!-- ============ WINDOWS ============ -->
+  <section id="windows">
+    <h2 style="color:var(--or);font-size:13px;letter-spacing:.18em;text-transform:uppercase;font-weight:700">Pour Windows 🪟</h2>
+    <p class="lead">Windows — installation pas à pas</p>
+
+    <div class="step">
+      <div class="step-head"><div class="num">1</div><h3>Installe Git pour Windows (à faire EN PREMIER)</h3></div>
+      <ul>
+        <li>Va sur <b>git-scm.com/downloads/win</b> et clique le bouton de téléchargement <b>proposé par défaut</b> (il choisit la bonne version tout seul).</li>
+        <li>Ouvre le fichier téléchargé. Si Windows affiche <b>« Windows a protégé votre PC »</b> → clique <b>Informations complémentaires</b> puis <b>Exécuter quand même</b> (c'est sûr).</li>
+        <li>Clique <b>Next / Suivant</b> à chaque écran <b>sans rien changer</b> (laisse tout par défaut), puis <b>Install</b>, puis <b>Finish</b>.</li>
+      </ul>
+      <div class="note warn"><span class="t">Ne saute pas cette étape</span>Sans Git, la boîte à outils du Collectif ne pourra pas s'installer. Les écrans de l'installateur sont techniques : laisse simplement tout par défaut, c'est très bien.</div>
+    </div>
+
+    <div class="step">
+      <div class="step-head"><div class="num">2</div><h3>Installe l'application Claude</h3></div>
+      <ul>
+        <li>Va sur <b>claude.ai/download</b> et clique <b>Download for Windows</b>.</li>
+        <li>Ouvre le fichier téléchargé et installe-le (« Suivant » jusqu'au bout). Même avertissement Windows possible → <b>Exécuter quand même</b>.</li>
+        <li>Lance <b>Claude</b> depuis le menu Démarrer et <b>connecte-toi</b> (abonnement Pro/Max).</li>
+      </ul>
+      <div class="note warn"><span class="t">Important : redémarre Claude après Git</span>Si tu avais déjà ouvert Claude avant d'installer Git, <b>ferme-le complètement et rouvre-le</b> — sinon il ne verra pas Git.</div>
+    </div>
+
+    <div class="step">
+      <div class="step-head"><div class="num">3</div><h3>La suite</h3></div>
+      <p>C'est tout pour Windows ! Reviens à la page principale et continue à l'étape <b>« Installe le parcours CTP »</b>.</p>
+      <a class="dl" href="index.html#install">← Revenir et continuer</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Bismillah, et bon contenu.</p>
+    <div class="brand">Collectif Tariqa PRO</div>
+  </footer>
+
+</div>
+</body>
+</html>
