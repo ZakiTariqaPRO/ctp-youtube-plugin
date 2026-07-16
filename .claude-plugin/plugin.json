@@ -1,0 +1,24 @@
+{
+  "name": "collectif-tariqa-pro-youtube",
+  "description": "Système YouTube du Collectif Tariqa PRO (BETA). Établir une stratégie YouTube claire et méthodique, puis PRODUIRE au quotidien : scan/diagnostic (stratège), packaging (angle + titres + miniature DONE-FOR-YOU via vidIQ), hook, structure vidéo (plan digeste / mind map / script complet), CTA, SEO, feedback — le tout challengé par Coach Zaki. PRÉREQUIS : le parcours CTP (persona -> offre -> positionnement -> voix). Moteur != donnee : chaque membre nourrit le systeme avec SA data.",
+  "version": "0.1.0-beta",
+  "author": {
+    "name": "Collectif Tariqa PRO",
+    "email": "zaki@tariqa.pro"
+  },
+  "homepage": "https://entrepreneur-musulman.com",
+  "keywords": [
+    "tariqa-pro",
+    "youtube",
+    "contenu",
+    "strategie",
+    "packaging",
+    "miniature",
+    "hook",
+    "structure",
+    "script",
+    "seo",
+    "coach-zaki",
+    "vidiq"
+  ]
+}
