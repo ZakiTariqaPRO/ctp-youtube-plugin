@@ -152,7 +152,12 @@ Prendre **le plus gros levier** des `improvements` et le corriger **seul** :
 time / rétention / abonnés / trafic). Juger une miniature « trop sombre » **à l'œil** = hypothèse,
 pas donnée. La vraie mesure = **CTR + impressions par vidéo** (YouTube Studio → Reach).
 
-**Voie pérenne = connecteur YouTube du MCP Windsor** (même patron que taap.it → GA4 → Windsor) :
+**Voie GRATUITE (aucun abo)** : le CTR + les impressions sont dans **YouTube Studio → onglet Couverture
+(Reach)**. Demander au membre de **relever son CTR** là (par vidéo) et de le fournir — zéro dépendance.
+C'est déjà la source qu'utilise `ctp-yt-feedback`. Le connecteur Windsor ci-dessous **automatise** cette
+lecture (option payante), il ne la remplace pas.
+
+**Voie pérenne (automatisée) = connecteur YouTube du MCP Windsor** (même patron que taap.it → GA4 → Windsor) :
 1. **Dépendance externe** : le membre doit avoir **autorisé le connecteur YouTube dans Windsor**.
    Vérifier via `get_connectors`. Absent → le **signaler** et s'arrêter là (ne pas bricoler).
 2. Tirer **impressions + CTR par vidéo** (`get_fields` puis `get_data`, connector `youtube`).
