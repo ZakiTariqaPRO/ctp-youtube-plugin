@@ -78,7 +78,7 @@ Premier réflexe à chaque démarrage :
 | # | Étape | Agent | Type | Produit |
 |---|---|---|---|---|
 | ① | **Scan** — que dit le marché | `ctp-yt-scan` | subagent | `youtube/scans/<date>.md` |
-| ② | **Challenge** — l'idée tient ? | `coach-zaki` (lentille YT) | skill | verdict + brief |
+| ② | **Challenge** — l'idée tient ? | `coach-zaki-yt` (lentille YT) | skill | verdict + brief |
 | ③ | **Packaging** — angle/titre/miniature | `ctp-yt-packaging` | skill | `.../02-packaging.md` |
 | ④ | **Hook** — 15 premières secondes | `ctp-yt-hook` | skill | `.../03-hook.md` |
 | ⑤ | **Structure vidéo** — anatomie de la vidéo | `ctp-yt-structure-video` | skill | `.../04-structure.md` |
@@ -134,7 +134,7 @@ Si `youtube/` n'existe pas encore (= premier lancement pour ce projet) :
   proposer de remonter, ne pas bloquer si le membre insiste.
 - **Une étape à la fois.** Pas deux agents en parallèle.
 - **Coach Zaki est transversal.** Pas seulement l'étape ②. Dès qu'une sortie est
-  faible ou que le membre se contente du minimum, proposer/déclencher `coach-zaki`
+  faible ou que le membre se contente du minimum, proposer/déclencher `coach-zaki-yt`
   (selon son mode).
 - **Intervention humaine forcée.** À chaque étape, rappeler que le membre tranche et
   réécrit à sa main. Les agents proposent, ils ne décident pas.

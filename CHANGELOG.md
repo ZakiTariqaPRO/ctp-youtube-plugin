@@ -1,5 +1,20 @@
 # Changelog — Système YouTube du Collectif Tariqa PRO
 
+## 0.2.0-beta (2026-07-18) — audit de continuité (retour bêta-testeur)
+- 🔴 **Collision de noms tuée** : le plugin ne livre plus de copie de `coach-zaki`. Il livre
+  **`coach-zaki-yt`** — la **lentille YouTube seule** — qui s'appuie sur le `coach-zaki` du parcours
+  CTP (prérequis) pour la posture. Plus de chargement non-déterministe quand les 2 plugins sont actifs.
+- 🔴 **`scripts/sync-coach-zaki.sh` supprimé** (chemin de machine de dev, inopérant chez un membre,
+  et faux principe de « source de vérité »). Les améliorations générales de Coach Zaki vivent
+  désormais dans le **plugin parcours**, source unique.
+- 🟠 **Gate durci** (doctrine §0) : message d'échec **unique et actionnable** + détection des
+  fondations **vides ou à l'état de brouillon** (`[À VALIDER]`, TODO…), pas seulement absentes.
+- Références internes réalignées (`coach-zaki` → `coach-zaki-yt`), manifestes mis à jour.
+
+*Faux positifs de l'audit, non retenus : `ctp-voix` « persona/positionnement » est une énumération,
+pas un chemin ; `docs/installation.html` est 100 % statique (0 script, ~5 200 caractères de texte) —
+le body vide observé venait d'une lecture pendant le build de GitHub Pages.*
+
 ## 0.1.0-beta (2026-07-16)
 Première beta, en test.
 

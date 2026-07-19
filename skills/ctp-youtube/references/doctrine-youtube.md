@@ -24,14 +24,19 @@ Fichiers requis (produits par le parcours CTP) :
 **Règle de gate (tout agent YouTube l'applique avant de travailler) :**
 1. Chercher ces fichiers dans le projet.
 2. **Tous présents** → les charger, annoncer lesquels, continuer.
-3. **Manquants ou vides** → **STOP**. Ne pas improviser. Demander : « où sont tes
-   fichiers persona / offre / positionnement / voix ? As-tu fait le parcours CTP ? »
-   - S'ils existent ailleurs → demander le chemin / le bon projet.
-   - S'ils n'existent pas → renvoyer vers le parcours **avant** de continuer :
-     « Fais d'abord le parcours CTP (persona → offre → positionnement → voix), sinon
-     ta vidéo ne pourra pas être pertinente. Tape `lance le parcours CTP`. »
-   - Si le plugin CTP n'est pas installé → pointer le dépôt :
-     `https://github.com/ZakiTariqaPRO/ctp-plugin.git` (ou `lance le parcours CTP`).
+3. **Manquants, vides OU encore à l'état de brouillon** → **STOP**. Ne pas improviser.
+   - ⚠️ **Vérifier le CONTENU, pas seulement l'existence du fichier.** Un fichier présent mais vide,
+     quasi vide, ou truffé de marqueurs de brouillon (`[À VALIDER]`, `[à préciser]`, `TODO`, sections
+     non remplies) = **foundation non faite**. Sinon le pipeline consomme du générique en croyant
+     le socle posé. Le dire au membre : « ton `<fichier>` est encore un brouillon — on le consolide
+     avant, sinon ta vidéo sera générique. »
+   - **Message d'échec unique et actionnable** (le donner tel quel, en une fois) :
+     > « Il me manque tes fondations CTP : `<liste des fichiers manquants/vides>`.
+     > **Si tu as le parcours CTP installé** → tape `lance le parcours CTP`.
+     > **Si tu ne l'as pas** → installe-le d'abord : `https://github.com/ZakiTariqaPRO/ctp-plugin.git`
+     > (c'est le prérequis de ce système — sans lui, ton contenu serait générique).
+     > **Si tes fichiers sont ailleurs** → donne-moi le chemin / ouvre le bon dossier. »
+   - Ne pas noyer le membre : **un seul** message, puis on attend.
 4. Ne **jamais** fabriquer un persona/une offre à la volée pour contourner le gate.
    Au mieux, capter une cible **express** en le disant clairement (« provisoire, à
    consolider dans le parcours ») — mais toujours pousser à faire le vrai parcours.
@@ -95,7 +100,7 @@ Conséquence directe pour tous les agents :
   vidéo. Les vues sont un moyen, pas une fin.
 
 Cette thèse est **la même** que celle de Coach Zaki : on ne flatte pas la vanity
-metric, on cherche le résultat réel. Cf. `coach-zaki`.
+metric, on cherche le résultat réel. Cf. `coach-zaki-yt`.
 
 ## 2. Moteur ≠ donnée (pourquoi ces agents sont cross-marché)
 
@@ -320,7 +325,7 @@ avec le persona/l'offre/la voix, jamais des recettes à copier.
 
 ```
 ① SCAN      ctp-yt-scan (subagent)      → opportunités, angles, objections marché
-② CHALLENGE coach-zaki (lentille YT)     → démonte l'idée, score, verdict, brief
+② CHALLENGE coach-zaki-yt(lentille YT)     → démonte l'idée, score, verdict, brief
 ③ PACKAGING ctp-yt-packaging (skill)     → angles, titres, concepts miniature, DAP
 ④ HOOK      ctp-yt-hook (skill)          → 15 premières secondes, variantes
 ⑤ STRUCTURE ctp-yt-structure-video (skill) → anatomie de la vidéo : intro, open loops,

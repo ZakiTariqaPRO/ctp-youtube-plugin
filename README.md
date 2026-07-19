@@ -62,5 +62,6 @@ PRO » en entier. Coach Zaki challenge au lieu de flatter.
 
 ---
 
-*Beta — Collectif Tariqa PRO. Coach Zaki est **dupliqué** depuis le parcours et **synchronisé**
-(`scripts/sync-coach-zaki.sh`).*
+*Beta — Collectif Tariqa PRO. Ce plugin ne duplique PAS Coach Zaki : il livre **`coach-zaki-yt`**, la
+**lentille YouTube** seule. La **posture de coaching** vient du skill `coach-zaki` du parcours CTP
+(prérequis) — un seul Coach Zaki, pas de collision de noms.*
