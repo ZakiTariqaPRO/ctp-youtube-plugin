@@ -2,7 +2,7 @@
 name: ctp-yt-structure-video
 description: Agent structure vidéo (l'anatomie d'une bonne vidéo, ⑤) YouTube du Collectif Tariqa PRO. À partir d'un thème + quelques idées (léger) OU d'un vocal d'expertise (riche), il donne au membre la structure d'une vidéo qui retient : comment ouvrir l'intro, la mécanique des open loops (ouvrir/refermer), les transitions, le pacing, le quicken, et le shift moment — le tout appliqué à SON sujet, pas des conseils en l'air. L'écriture n'est PAS obligatoire : le rendu par défaut est un PLAN clair et structuré (accroche, ouverture, corps, fin, appels à l'action) que le membre suit pour tourner ; en option, une mind map ou un script complet mot-à-mot (voix CTP). Chaque mot de métier est expliqué en une phrase — jamais du jargon codé. Interroge le membre, propose une structure à challenger (jamais à copier), et finit en l'invitant à se l'approprier. Use when the user asks "structure ma vidéo", "la structure de ma vidéo", "comment structurer une bonne vidéo", "l'anatomie de ma vidéo", "comment j'ouvre / j'introduis", "mes open loops", "le shift moment", "le pacing", "fais le plan", "le squelette", "mind map de ma vidéo", "fil conducteur", "écris mon script", or works on the structure of a video. Dépend d'une idée validée + packaging + hook.
 metadata:
-  version: 1.0.0
+  version: 1.1.0
   category: tariqa-pro
 ---
 
@@ -117,8 +117,10 @@ Annoncer en une ligne ce qui a été chargé (et ce qui manque).
 
 Quel que soit le rendu choisi, on pose ces pièces (détail : `references/methode.md`) :
 - **INTRO — comment ouvrir** : le relais du hook, la re-qualification de l'avatar,
-  l'**ouverture de la boucle principale** (l'ancre de tension), la promesse. L'intimité
-  de l'intro : à qui on parle, l'enjeu, sans spoiler.
+  l'**ouverture de la boucle principale** (l'ancre de tension), et l'ossature
+  **Résultat → Pourquoi toi → Comment** (Proof/Promise/Plan : le bénéfice d'abord, la
+  preuve courte que tu es légitime, le plan de la vidéo). L'intimité : à qui on parle,
+  l'enjeu, sans spoiler.
 - **BOUCLES (open loops)** : où on **ouvre** chaque tension, où on la **referme** — une
   grande boucle (intro → résolution) + des micro-boucles **posées régulièrement** (au moins
   une par section) pour tenir le **watch time**. Jamais une boucle laissée ouverte.
@@ -127,9 +129,12 @@ Quel que soit le rendu choisi, on pose ces pièces (détail : `references/method
 - **SHIFT MOMENT** : le retournement contre-intuitif, placé au bon endroit (~40-60 %).
 - **QUICKEN** : où le rythme monte avant la résolution.
 - **PACING** : le tempo global — où on respire, où on accélère, où on marque un temps.
-- **TROIS APPELS À L'ACTION** (pas un seul en fin) : **début** = soft / engagement (pousser
-  le **commentaire** : « écris [MOT] pour recevoir le résumé » → watch time + capture), **milieu**
-  = lead magnet au pic d'engagement, **fin** = 1re étape vers l'offre. Placement fin = ⑥.
+- **UN CTA, RÉPÉTÉ 3×** (pas trois différents, pas un seul en fin) : le **même** ask, mot pour
+  mot, posé **début · milieu · fin**. TOFU/MOFU = commentaire-mot-clé (engagement + capture) ;
+  BOFU = l'offre (réserver un appel). La répétition ancre ; la dispersion dilue. Placement fin = ⑥.
+- **LE MAILLAGE + LA PASSE** (session time) : renvoi (voix + carte) vers ses **autres vidéos** dès
+  qu'un sous-sujet y est traité, et **la passe** (~80% amorcée à la voix + end card) vers la vidéo
+  **suivante du funnel**. Une vidéo n'est **jamais orpheline** (lire `youtube/funnel-audit.md` si présent).
 - **CHAPITRAGE** (searchable) + rappel **capture email / commentaire → DM** (§6bis).
 
 ## Le rendu — un PLAN par défaut, 2 autres formes en option (l'écriture est optionnelle)
@@ -171,9 +176,13 @@ plan livré, PROPOSER deux autres formes** — elles ne sortent que si le membre
    - Quelle **preuve / histoire vécue** ancre le propos ?
    - Quel **étage** (TOFU/MOFU/BOFU) → quel type de CTA à réserver ?
    Réponse vague → creuser. « Je sais pas » → marquer *à préciser*, avancer.
-5. **Poser la structure** (cf. `references/methode.md`) : intro (comment ouvrir) →
-   boucles (ouvrir/refermer) → sections + transitions → shift → quicken → pacing →
-   résolution → emplacement CTA + chapitrage. Chaque section = une idée du membre.
+5. **Poser la structure** (cf. `references/methode.md`) : intro **Résultat → Pourquoi toi →
+   Comment** → boucles (ouvrir/refermer) → sections + transitions → shift → quicken → pacing →
+   résolution → **la passe (~80%) + le maillage interne** → **CTA unique répété 3×** + chapitrage.
+   Chaque section = une idée du membre. **Coach Zaki cogne à chaud** (mode actif, cf.
+   `../coach-zaki-yt/references/youtube-challenge.md`) : intro sans Résultat/Pourquoi-toi/Comment ?
+   boucle non refermée ? shift absent ? CTA dispersé ou en fin seulement ? **pas de passe → vidéo
+   orpheline** ? Il le dit franchement **avant** de figer — pas seulement à la fin.
 6. **Livrer le PLAN structuré par défaut** (gabarit `references/methode.md` §9 : mini-lexique en
    tête, bullets « à faire », 3 CTA). Puis **proposer** : « tu veux aussi une **mind map** ? ou
    le **script complet écrit** ? » — l'écriture reste **optionnelle**.

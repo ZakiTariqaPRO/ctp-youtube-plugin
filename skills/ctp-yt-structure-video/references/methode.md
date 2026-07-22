@@ -24,8 +24,13 @@ QUICKEN                        ← l'ACCÉLÉRATION (le tempo : ça monte, on en
   ↓
 RÉSOLUTION                     ← on referme LES open loops ouvertes plus haut
   ↓
-EMPLACEMENT CTA                ← on réserve la place (placement fin = agent ⑥)
+LA PASSE (~80%)                ← on amorce la vidéo SUIVANTE du funnel (end card) + maillage interne
+  ↓
+CTA UNIQUE (×3)                ← le même ask, posé début/milieu/fin (placement fin = agent ⑥)
 ```
+
+> **Intro** = Résultat → Pourquoi toi → Comment (Proof/Promise/Plan, §2). **CTA** = un seul, répété 3×
+> (§12). **La passe** = le fil vers la vidéo suivante (§12bis). Ces trois-là étaient les grands oubliés.
 
 Flow **logique du début à la fin** : chaque section prépare la suivante. Si on peut
 retirer une section sans casser le sens, elle ne sert pas la promesse — couper.
@@ -44,6 +49,15 @@ là que se joue l'**intimité** : le viewer doit sentir « c'est à MOI qu'il pa
    (l'**ancre de tension**, cf. §3). On promet une résolution sans la donner.
 5. **La promesse, sans spoiler** — ce qu'il saura à la fin, formulé comme une destination,
    pas comme un résumé (« à la fin tu sauras X » ≠ « dans cette vidéo je vais dire A, B, C »).
+
+### La colonne Proof / Promise / Plan (l'intro qui légitime — Hormozi, tamisé CTP)
+
+Sous l'intimité, l'intro tient sur **3 temps** — l'ossature de toute prise de parole (post, page, vidéo) :
+- **Promise (le RÉSULTAT)** — annonce d'emblée ce que le viewer repart avec (« à la fin, tu sauras poser X »). Le bénéfice, pas le programme.
+- **Proof (POURQUOI TOI)** — la preuve **courte** que tu es légitime à livrer ce résultat : transformation vécue, cas client réel, ce que tu as construit. **Preuve de transformation, jamais un montant** (garde-fou CTP). *Assume-nothing* : re-présente-toi à chaque vidéo — le viewer ne te connaît pas.
+- **Plan (le COMMENT)** — la feuille de route de la vidéo en une phrase (« on va voir 1, 2, 3 »), pour qu'il sache pourquoi rester.
+
+Cette colonne se **fond** dans les 5 temps ci-dessus (la Promise porte la boucle, le Proof crée l'intimité, le Plan tend vers le corps). Ce n'est pas une récitation mécanique — c'est l'ordre qui légitime.
 
 Règle **A-roll avant B-roll** : 4-5 s de face-à-face d'abord (on ancre la personne), puis
 les inserts. Ne jamais ouvrir sur 30 s de B-roll muet. L'intro **tend** vers le corps, elle
@@ -141,20 +155,23 @@ parcours** (persona → offre → positionnement → voix → packaging → hook
   plan, il ne bute nulle part ensuite.
 - **② Des bullets « ce qu'il y a à faire »** sous chaque section — les **éléments clés à cocher**,
   pas le script rédigé. Le membre voit **quoi dire/faire**, il met ses mots à lui.
-- **③ Trois appels à l'action** (début · milieu · fin), pas seulement à la fin (cf. §12).
+- **③ UN appel à l'action, répété 3×** (début · milieu · fin) — le même ask, pas trois différents (cf. §12).
+- **④ La passe + le maillage** : à ~80% on amorce la vidéo suivante (end card), et on renvoie vers ses
+  autres vidéos quand un sous-sujet y est traité (cf. §12bis).
 Aucun sigle (TOFU/DAP…) dans le plan. Gabarit :
 
 ```
 # 🎬 TON PLAN VIDÉO — « [titre] »
   (format · tu suis les points, tu mets TES mots · c'est une base, pas un texte à réciter)
 
-## 📖 Avant de lire — 5 mots à connaître
+## 📖 Avant de lire — 6 mots à connaître
    - Le hook : tes 3 premières secondes, celles qui font rester.
    - Une boucle (open loop) : une question qu'on ouvre et qu'on ne referme que plus tard —
      c'est ça qui tient le spectateur. On en met plusieurs, régulièrement.
    - Le moment de bascule : LA phrase qui retourne le spectateur (« je voyais ça à l'envers »).
    - Le quicken : le petit coup d'accélérateur avant la fin, pour qu'elle ne traîne pas.
-   - Les appels à l'action : ce que tu demandes au spectateur (commenter, s'abonner, cliquer).
+   - Ton appel à l'action : UNE seule chose que tu demandes au spectateur — la même, répétée 3×.
+   - La passe : à la fin, tu l'envoies vers ta vidéo suivante — comme un fil entre tes vidéos.
 
 ## 1. L'ACCROCHE — tes 3 premières secondes
    À faire :
@@ -162,13 +179,15 @@ Aucun sigle (TOFU/DAP…) dans le plan. Gabarit :
    - [ ] Reste sur l'énergie du hook.
    → Ta phrase : « [...] »
 
-## 2. L'OUVERTURE — ~0:15 à 0:45
+## 2. L'OUVERTURE — ~0:15 à 0:45   (Résultat → Pourquoi toi → Comment)
    À faire :
    - [ ] Nomme à qui tu parles : [le spectateur]
+   - [ ] 🎯 Le RÉSULTAT (promesse) : ce qu'il repart savoir/faire : « à la fin, tu... »
+   - [ ] 🛡️ POURQUOI TOI (preuve courte, transformation — jamais un montant) : « [...] »
+   - [ ] 🗺️ Le COMMENT (plan de la vidéo en 1 phrase) : « on va voir [1, 2, 3] »
    - [ ] Ouvre ta grande boucle (la question de toute la vidéo) : « [...] »
-   - [ ] Annonce ta promesse, sans tout dévoiler : [ce qu'il saura à la fin]
-   - [ ] 👉 APPEL À L'ACTION 1 (soft) : « si tu veux le résumé de la vidéo, écris [MOT] en
-         commentaire, je te l'envoie » → pousse le commentaire (bon pour le watch time + l'algo)
+   - [ ] 👉 TON APPEL À L'ACTION (le même toute la vidéo) — 1/3 : « écris [MOT] en commentaire,
+         je t'envoie [X] » → engagement + capture (pas de vente ici)
 
 ## 3. LE CORPS — tes idées, dans l'ordre
    ### 🟠 Idée 1 — [titre]
@@ -180,20 +199,21 @@ Aucun sigle (TOFU/DAP…) dans le plan. Gabarit :
    ### 🔴 Idée 2 — [titre]   ⭐ LE MOMENT FORT
    À faire :
    - [ ] Amène le moment de bascule (marque un temps juste avant — un silence = du poids)
-   - [ ] 👉 APPEL À L'ACTION 2 (milieu) : renvoie vers le résumé/lead magnet OU relance le
-         commentaire — c'est le pic d'engagement
+   - [ ] 👉 TON APPEL À L'ACTION (le même) — 2/3 : au pic d'engagement, répète le même ask
    → Ta phrase-choc (à cliper en Short) : « [...] »
 
    ### 🟢 Idée 3 — [titre]
    À faire :
    - [ ] Referme ta grande boucle de l'ouverture : « [...] »
-   - [ ] Ouvre une dernière micro-boucle vers la conclusion
+   - [ ] 🔗 LA PASSE (~80%) : amorce ta vidéo suivante « la suite logique, c'est [Y] — regarde ça »
+   - [ ] Renvoie vers tes autres vidéos si tu as effleuré un sujet que tu as déjà traité (maillage)
 
 ## 4. LA FIN
    À faire :
    - [ ] Accélère (le quicken) — récap en 3 mots : [ ... / ... / ... ]
    - [ ] Ta conclusion, dans ta voix : « [...] »
-   - [ ] 👉 APPEL À L'ACTION 3 (fin) : la 1re étape vers ton offre / le collectif
+   - [ ] 👉 TON APPEL À L'ACTION (le même) — 3/3 : répète-le une dernière fois
+   - [ ] 🔗 END CARD sur ta vidéo suivante (la passe posée à l'idée 3)
 
 ## ✍️ Avant de tourner
    C'est une base. Dis-la à voix haute, remets tes mots. C'est quand ça sonne comme TOI
@@ -230,24 +250,43 @@ Le format module la densité — **proposer**, le membre tranche.
 - **Points de coupe** : repérer les respirations pour le monteur.
 - **Shift + quicken** : signaler au monteur = les moments à extraire en clips (Shorts/Reels).
 
-## 12. Réserver l'emplacement des CTA — TROIS, pas un seul (règle)
+## 12. Le CTA — UN seul, répété 3× (début · milieu · fin) — règle
 
-**Un CTA à la fin seulement, c'est raté.** On en réserve **trois**, répartis, chacun adapté à
-l'état du spectateur à ce moment (jamais de vente dure sur une audience froide) :
+**Un CTA à la fin seulement, c'est raté. Trois CTA *différents*, c'est se disperser.** La règle CTP
+(tamisée d'Hormozi : un CTA gratuit répété mot pour mot) : **un seul appel à l'action, le même,
+répété 3×** — mot pour mot ou presque — à trois moments. La répétition **ancre** ; la dispersion **dilue**.
 
-- **CTA 1 — début (soft, engagement).** Juste après l'ouverture. **Pas de vente.** Le plus fort =
-  **pousser le commentaire** : « si tu veux le résumé de la vidéo, écris [MOT-CLÉ] en commentaire,
-  je te l'envoie ». Un commentaire tôt = signal d'engagement énorme (watch time + algo), et ça
-  amorce la **capture** (mot-clé → DM/email, cf. doctrine §6bis). Variante : « abonne-toi si… ».
-- **CTA 2 — milieu (lead magnet).** Au **pic d'engagement** (souvent après le moment de bascule).
-  Le **résumé / PDF** contre un **email**, ou de nouveau le commentaire-mot-clé. C'est l'actif
-  qu'on possède hors plateforme.
-- **CTA 3 — fin (l'offre).** Une fois la tension au pic : la **1re petite étape** vers l'offre /
-  le collectif (jamais le gros engagement d'un coup).
+- **Choisir LE CTA selon l'étage funnel** (un par vidéo) :
+  - **TOFU / MOFU** → le **lead magnet via commentaire-mot-clé** : « écris [MOT] en commentaire, je
+    t'envoie [X] ». Il fait tout : engagement tôt (watch time + algo), **capture** (mot-clé → DM/email,
+    actif hors plateforme, cf. doctrine §6bis), et **zéro vente dure** sur audience froide.
+  - **BOFU** → l'**offre** : « réserve un appel » / la 1re petite étape. Même phrase, répétée.
+- **Les 3 emplacements** : début (juste après l'ouverture), milieu (au pic — souvent après le shift),
+  fin (tension au pic). **Le même ask à chaque fois**, formulé pareil (le viewer l'entend, l'oublie,
+  le ré-entend, agit).
+- Le wording exact / l'awareness = agent ⑥ `ctp-yt-cta` ; ici on **réserve le CTA unique + ses 3 emplacements**.
 
-Adapter à l'étage : **TOFU** → les 3 restent soft/engagement · **MOFU/BOFU** → le CTA 3 peut être
-direct (appel, offre). Le **placement précis, le wording, l'awareness** = agent ⑥ `ctp-yt-cta` ;
-ici on **réserve les 3 emplacements** et leur nature.
+⚠️ **Ne pas confondre le CTA avec la passe (§12bis).** Le CTA = ce que tu demandes AU viewer
+(commenter / réserver). La passe = où tu **l'envoies ensuite** (ta vidéo suivante). Les deux coexistent
+dans la même vidéo.
+
+## 12bis. Le maillage interne & la passe (session time) — NON NÉGOCIABLE
+
+Une vidéo isolée est un cul-de-sac. YouTube **crédite ta chaîne quand le viewer continue à regarder
+YouTube APRÈS ta vidéo** (session time, vidIQ `wjuj6NeI9II`). Deux mécaniques structurelles, à poser
+DANS le plan — c'est ce qui fait de tes vidéos un **entonnoir**, pas des monologues orphelins :
+
+- **Le maillage interne** — dès que tu **effleures un sous-sujet que tu as déjà traité ailleurs**, tu
+  renvoies vers CETTE vidéo : à la voix (« j'ai une vidéo entière là-dessus ») **+ carte** au moment où
+  tu le dis. Avant de tourner, le membre **liste les sous-sujets qui ont déjà leur vidéo** (lire sa carte
+  funnel `youtube/funnel-audit.md` si elle existe). Ça transforme un monologue en réseau.
+- **La passe** — à **~80% de la vidéo**, tu **amorces à la voix** la vidéo **suivante du funnel** (la
+  plus pertinente, pas la dernière publiée), puis **end card** dessus à la fin. C'est le chaînon de
+  l'entonnoir : TOFU → MOFU → BOFU. « Maintenant que tu sais X, la suite logique c'est Y — regarde ça. »
+
+Dans le plan, noter explicitement : **(a)** les renvois internes (sous-sujet → sa vidéo), **(b)** la
+passe (cette vidéo → la suivante, amorcée ~80% + end card). Sans ça, on construit des vidéos
+orphelines — l'erreur exacte que corrige la carte funnel.
 
 ## 13. Erreurs fréquentes (à éviter)
 
@@ -262,6 +301,9 @@ ici on **réserve les 3 emplacements** et leur nature.
 - **Trop de sections** (>4) : le flow se dilue. Couper.
 - **Sur-scripter un F1 roue libre** : le membre récite, ça sonne faux.
 - **CTA plaqué à la fin sans quicken ni tension** : il tombe à plat.
+- **Trois CTA différents** : ça disperse le viewer — UN seul ask, répété 3× (ancre > dispersion).
+- **Vidéo orpheline** : pas de passe vers la vidéo suivante, aucun renvoi vers ses autres vidéos →
+  cul-de-sac qui perd le session time. Toujours poser le maillage + la passe (§12bis).
 
 ## 14. Tactiques minées (vidIQ, filtrées CTP)
 

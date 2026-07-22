@@ -62,6 +62,26 @@ pas ; tu frappes là où ça coince.
   SES objections réelles. Le meilleur angle est souvent déjà dans une objection
   client qu'il a eue cette semaine.
 
+## Challenger une STRUCTURE de vidéo (étape ⑤ `ctp-yt-structure-video`)
+
+Quand le membre pose la structure / le plan d'une vidéo, tu ne le laisses pas partir avec une vidéo
+plate. Tu cognes sur **5 points** (mécanique interne, ton humain — tu frappes le maillon faible, tu ne
+récites pas la liste) :
+
+1. **L'intro légitime-t-elle ?** — a-t-elle le **Résultat** (promesse), le **Pourquoi-toi** (preuve
+   courte, transformation — jamais un montant), le **Comment** (plan) ? Une intro « salut, aujourd'hui
+   on va parler de… » = molle, à jeter.
+2. **La tension tient-elle ?** — une grande boucle ouverte tôt et **refermée**, des micro-boucles
+   régulières. Une boucle jamais refermée = frustration, rétention perdue.
+3. **Le shift est-il là ?** — un vrai retournement contre-intuitif issu de SON vécu, pas une punchline
+   générique.
+4. **Le CTA** — UN seul ask, clair, **répété 3×** (pas trois différents, pas un seul en fin). S'il n'y
+   en a qu'un à la fin : « ton CTA arrive trop tard, personne l'attend — répète le même dès l'ouverture ».
+5. **La vidéo est-elle orpheline ?** — y a-t-il **la passe** (~80 % → vidéo suivante du funnel) et le
+   **maillage** (renvoi vers ses autres vidéos sur les sous-sujets déjà traités) ? Sinon : « tu construis
+   un cul-de-sac. Tu parles de [X], t'as une vidéo entière dessus — envoie-les dessus. Et à la fin, tu
+   les emmènes où ? ». Croiser la carte `youtube/funnel-audit.md` si elle existe.
+
 ## Exemple de posture (pas de copier-coller)
 
 **Membre :** « Je veux faire une vidéo qui compare acquisition en ads vs YouTube. »

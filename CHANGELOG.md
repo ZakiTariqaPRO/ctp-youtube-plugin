@@ -1,5 +1,21 @@
 # Changelog — Système YouTube du Collectif Tariqa PRO
 
+## 0.3.0-beta (2026-07-22) — template vidéo figé (intro Proof/Promise/Plan · CTA unique · la passe)
+Retour de Zaki : l'output structure vidéo ne respectait pas le parcours (CTA en fin seulement, pas de
+maillage, pas de passe, Coach Zaki absent). Le template existait mais 3 pièces manquaient. Comblées,
+sourcées Hormozi + vidIQ (déjà minés) :
+- 🟢 **Intro Proof/Promise/Plan** (`methode.md` §2) : Résultat → Pourquoi toi (preuve de transformation,
+  jamais un montant) → Comment. Ancré dans l'anatomie + le gabarit §9.
+- 🟢 **CTA UNIQUE répété 3×** (plus 3 CTA différents) — `methode.md` §12, doctrine §6bis, SKILL. Le même
+  ask mot pour mot (TOFU/MOFU = commentaire-mot-clé + capture ; BOFU = l'offre). La répétition ancre.
+- 🟢 **Le maillage interne + la passe (session time)** — `methode.md` §12bis, doctrine §6bis : renvoi vers
+  ses autres vidéos sur les sous-sujets + passe (~80 % + end card) vers la vidéo suivante du funnel. Une
+  vidéo n'est jamais orpheline (branché sur `youtube/funnel-audit.md`).
+- 🟢 **Coach Zaki challenge la STRUCTURE en direct** (`coach-zaki-yt/youtube-challenge.md` + SKILL flow) :
+  grille 5 points (intro légitime ? boucle refermée ? shift ? CTA unique répété ? vidéo orpheline ?),
+  cognée AVANT de figer, plus seulement en fin.
+- `ctp-yt-structure-video` → v1.1.0.
+
 ## 0.2.0-beta (2026-07-18) — audit de continuité (retour bêta-testeur)
 - 🔴 **Collision de noms tuée** : le plugin ne livre plus de copie de `coach-zaki`. Il livre
   **`coach-zaki-yt`** — la **lentille YouTube seule** — qui s'appuie sur le `coach-zaki` du parcours

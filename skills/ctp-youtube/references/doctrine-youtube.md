@@ -257,14 +257,18 @@ vidéo au mauvais packaging. Intervient **après** le tournage.
 YouTube ne sert pas qu'à cliquer vers un appel : il doit **capturer de l'email qualifié** — un actif
 que le membre **possède**, hors plateforme (une chaîne peut être coupée ; une liste email, non). Deux
 mécaniques à installer, et **le parcours doit guider le membre à les mettre en place** :
-- **Règle des TROIS CTA (début · milieu · fin), jamais un seul en fin** — chacun adapté à l'état du
-  spectateur (pas de vente dure sur audience froide) :
-  - **Début (soft / engagement)** : après l'ouverture, **pousser le commentaire** — « écris [MOT-CLÉ]
-    en commentaire, je t'envoie le résumé ». Un commentaire tôt = signal d'engagement fort (watch time
-    + algo) **et** amorce la capture (mot-clé → DM). Pas de vente ici.
-  - **Milieu (lead magnet)** : au **pic d'engagement** (souvent après le moment de bascule), le
-    **résumé** (PDF ou page) contre un **email** (ou de nouveau le commentaire-mot-clé → DM).
-  - **Fin (offre)** : la **1re petite étape** vers l'offre / le collectif.
+- **Règle du CTA UNIQUE, répété 3× (début · milieu · fin)** — jamais un seul en fin, jamais trois
+  *différents*. Le **même** ask, mot pour mot, à trois moments (la répétition ancre ; la dispersion
+  dilue — tamisé d'Hormozi : un CTA gratuit répété). On choisit LE CTA selon l'étage :
+  - **TOFU / MOFU** : le **commentaire-mot-clé → lead magnet** — « écris [MOT-CLÉ] en commentaire, je
+    t'envoie [le résumé / la carte] ». Engagement tôt (watch time + algo) **et** capture (mot-clé →
+    DM/email, actif hors plateforme). Pas de vente. Le même à chaque fois.
+  - **BOFU** : l'**offre** — « réserve un appel » / la 1re petite étape. Répétée pareil aux 3 moments.
+- **Le maillage interne + la passe (session time)** : YouTube crédite la chaîne quand le viewer
+  **continue à regarder APRÈS** ta vidéo (`wjuj6NeI9II`). Donc (a) **renvoyer** (voix + carte) vers ses
+  autres vidéos dès qu'un sous-sujet y est traité, et (b) **la passe** : à ~80 %, **amorcer à la voix**
+  la vidéo **suivante du funnel** (la plus pertinente, pas la dernière) + **end card**. Une vidéo n'est
+  **jamais orpheline** (cf. la carte `youtube/funnel-audit.md`). C'est ce qui fait l'**entonnoir**.
 - **Automatisation « vidéo → page recap »** : chaque vidéo génère une **page web** (idées clés,
   sources, timestamps) sur le site du membre → (1) **éclate le contenu + SEO evergreen**, (2)
   **capture l'email** (la page héberge le lead magnet). Où vit la base email = à décider avec le membre.
